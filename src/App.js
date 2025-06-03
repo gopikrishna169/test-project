@@ -56,7 +56,6 @@ function App() {
     // </Router>
     <AuthContext.Provider value={{user, setUser}}>
       <Login />
-      <Signup />
     </AuthContext.Provider>
   );
 }
